@@ -1,0 +1,16 @@
+<main>
+  <h3>Ultimas noticias:</h3>
+  <div class="container-noticias">
+    <div class="container-noticia-card" *ngFor="let noticias of noticias">
+      <div class="container-noticia-conteudo">
+        <div class="container-noticia-conteudo-texto">
+          <h5 class="container-noticia-conteudo-texto-titulo">{{noticias.titulo}}</h5>
+          <p class="container-noticia-conteudo-texto-autor">Autor: {{noticias.autor}}</p>
+          <p class="container-noticia-conteudo-texto-noticia">{{noticias.noticia}}</p>
+        </div>
+        <div class="imagem"></div>
+      </div>
+      <button class="container-noticia-card-botao">Ler mais</button>
+    </div>
+  </div>
+</main>

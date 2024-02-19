@@ -1,0 +1,29 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+header img{
+  width: 320px;
+  height: 90px;
+  padding: 0 20px;
+}
+
+.menu{
+  width: 50%;
+}
+
+header .menu ul{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+header .menu ul,header .menu ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+main{
+  background-color: #8F8686;
+  height: 100%;
+  color: white;
+  font-family: Inter;
+}
+main h3{
+  font-size: 36px;
+  font-weight: 200;
+  padding: 30px 0 0 30px;
+}
+.container-noticias{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30px;
+}
+.container-noticia-card{
+  border: 1px solid white;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+.container-noticia-conteudo{
+  display: flex;
+  justify-content: space-between;
+}
+.imagem{
+  width: 30%;
+  height: 100px;
+  background-color: #D9D9D9;
+}
+
+.container-noticia-conteudo-texto-autor{
+  font-size: 24px;
+  padding-left: 10px;
+}
+.container-noticia-conteudo-texto-titulo{
+  font-size: 32px;
+  font-weight: 100;
+}
+.container-noticia-conteudo-texto-noticia{
+  width: 80%;
+  padding: 10px;
+}
+.container-noticia-card-botao{
+  width: 100%;
+  background-color: #56D9AA;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
